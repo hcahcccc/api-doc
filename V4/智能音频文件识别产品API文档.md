@@ -166,7 +166,7 @@ curl -v 'http://api-audio-bj.fengkongcloud.com/audiomessage/v4' -d '{
     "accessKey": "*************",
     "appId": "default",
     "eventId": "default",
-    "type": "TIMBRE_POLITICAL_PORN",
+    "type": "TIMBRE_POLITY_EROTIC",
     "btId": "test1",
     "contentType": "URL",
     "content": "*************",
@@ -194,7 +194,7 @@ curl -v 'http://api-audio-bj.fengkongcloud.com/audiomessage/v4' -d '{
                 "audioEndtime":10,
                 "audioUrl":"http://voice-stream.oss-cn-hangzhou.aliyuncs.com/POST_AUDIO%2F20221102%2F817c8509359500c898a762ffe93a582b_a0000.mp3?Expires=1669984055&amp;OSSAccessKeyId=LTAI4GCEw42chQY7RgPbGxhv&amp;Signature=pG4zurQ%2F%2F9laWauXo4mFfQoHrdE%3D",
                 "riskLevel":"REJECT",
-                "riskLabel1":"abuse",
+                "riskLabel1":"DIRTY",
                 "riskLabel2":"buwenmingyongyu",
                 "riskLabel3":"qingdubuwenmingyongyu",
                 "riskDescription":"辱骂:不文明用语:轻度不文明用语",
@@ -705,7 +705,7 @@ curl -v 'http://api-audio-bj.fengkongcloud.com/query_audio/v4' -d '{
                     "riskDetail":{
                         "riskSource":1001
                     },
-                    "riskLabel1":"porn",
+                    "riskLabel1":"EROTIC",
                     "riskLabel2":"xingsaorao",
                     "riskLabel3":"zhongduxingsaorao",
                     "riskLevel":"REJECT"
@@ -887,7 +887,7 @@ curl -v 'http://api-audio-bj.fengkongcloud.com/query_audio/v4' -d '{
                     "riskDetail":{
                         "riskSource":1001
                     },
-                    "riskLabel1":"porn",
+                    "riskLabel1":"EROTIC",
                     "riskLabel2":"xingsaorao",
                     "riskLabel3":"zhongduxingsaorao",
                     "riskLevel":"REJECT"
